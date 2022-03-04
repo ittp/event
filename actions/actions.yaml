@@ -1,2 +1,7 @@
-#
-init: echo "init"
+action: 
+  name: Event name
+  command: cmd
+  callback: callback
+  env: .env
+  render: app 
+  
